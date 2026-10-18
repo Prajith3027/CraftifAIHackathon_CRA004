@@ -1,0 +1,17 @@
+{
+  "confidence_threshold": 0.5,
+  "persistence_s": 2.0,
+  "exit_grace_s": 0.8,
+  "dedup_cooldown_s": 3.0,
+  "low_conf_min_obs": 3,
+  "detector": "auto",
+  "yolo_model_path": "models/yolov8n.pt",
+  "frame_stride": 2,
+  "process_width": 480,
+  "zone": {
+    "name": "Restricted Zone",
+    "polygon": [[0.55, 0.35], [0.95, 0.35], [0.95, 0.95], [0.55, 0.95]]
+  },
+  "tracker": {"iou_threshold": 0.3, "max_missed": 5},
+  "retention": {"max_days": 30, "max_records": 5000}
+}

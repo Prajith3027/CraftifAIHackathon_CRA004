@@ -1,0 +1,11 @@
+# Core (needed for engine, tests, pipeline)
+numpy>=1.26
+pandas>=2.0
+opencv-python>=4.8
+# Dashboard
+streamlit>=1.40,<2
+plotly>=5.18
+# Optional: stronger person detector (YOLO). App falls back to OpenCV HOG if absent.
+# ultralytics>=8.3
+# Tests
+pytest>=8.0

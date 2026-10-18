@@ -1,0 +1,17 @@
+[
+  {
+    "start": 3.2,
+    "end": 10.81,
+    "actor": "A_sustained"
+  },
+  {
+    "start": 20.0,
+    "end": 30.0,
+    "actor": "C_flicker"
+  },
+  {
+    "start": 34.0,
+    "end": 40.0,
+    "actor": "D_lowconf"
+  }
+]
